@@ -7,10 +7,10 @@ const {
 
 export default {
   apiUrl(videoId) {
-    return `//vimeo.com/api/oembed.json?url=http%3A//vimeo.com/${videoId}`;
+    return `https://vimeo.com/api/oembed.json?url=http%3A//vimeo.com/${videoId}`;
   },
   embedUrl(videoId) {
-    return `//player.vimeo.com/video/${videoId}`;
+    return `https://player.vimeo.com/video/${videoId}`;
   },
   thumbnailUrl(videoId) {
     let apiUrl = this.apiUrl(videoId);

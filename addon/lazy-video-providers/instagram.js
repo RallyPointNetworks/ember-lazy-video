@@ -6,9 +6,9 @@ const {
 
 export default {
   embedUrl(videoId) {
-    return `http://instagram.com/p/${videoId}/embed`;
+    return `https://instagram.com/p/${videoId}/embed`;
   },
   thumbnailUrl(videoId) {
-    return RSVP.resolve(`http://instagram.com/p/${videoId}/media/?size=l`);
+    return RSVP.resolve(`https://instagram.com/p/${videoId}/media/?size=l`);
   }
 };
